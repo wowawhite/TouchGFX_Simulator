@@ -1,0 +1,7 @@
+HAL.hpp:291:17:static touchgfx::LCD& touchgfx::HAL::lcd()	4	static
+Drawable.hpp:293:13:int16_t touchgfx::Drawable::getWidth() const	16	static
+TypedText.hpp:106:10:bool touchgfx::TypedText::hasValidId() const	16	static
+TypedText.hpp:135:17:const touchgfx::Font* touchgfx::TypedText::getFont() const	16	static
+TypedText.hpp:165:19:touchgfx::TextDirection touchgfx::TypedText::getTextDirection() const	16	static
+TypedText.hpp:205:10:void touchgfx::TypedText::assertValid() const	16	static
+TextAreaWithWildcard.cpp:20:9:) const	76	static

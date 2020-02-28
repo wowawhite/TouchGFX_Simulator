@@ -1,0 +1,17 @@
+Types.hpp:158:5:touchgfx::Rect::Rect()	16	static
+Types.hpp:178:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	24	static
+HAL.hpp:291:17:static touchgfx::LCD& touchgfx::HAL::lcd()	4	static
+Bitmap.hpp:134:14:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	16	static
+Bitmap.hpp:222:10:touchgfx::Rect touchgfx::Bitmap::getRect() const	32	static
+AbstractPainterRGB565.hpp:43:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	16	static
+AbstractPainterRGB565.hpp:48:13:touchgfx::AbstractPainterRGB565::~AbstractPainterRGB565()	16	static
+AbstractPainterRGB565.hpp:48:13:virtual touchgfx::AbstractPainterRGB565::~AbstractPainterRGB565()	16	static
+PainterRGB565Bitmap.cpp:20:1:touchgfx::PainterRGB565Bitmap::PainterRGB565Bitmap(const touchgfx::Bitmap&, uint8_t)	24	static
+PainterRGB565Bitmap.cpp:27:6:void touchgfx::PainterRGB565Bitmap::setBitmap(const touchgfx::Bitmap&)	32	static
+PainterRGB565Bitmap.cpp:34:6:void touchgfx::PainterRGB565Bitmap::setAlpha(uint8_t)	16	static
+PainterRGB565Bitmap.cpp:39:9:uint8_t touchgfx::PainterRGB565Bitmap::getAlpha() const	16	static
+PainterRGB565Bitmap.cpp:44:6:virtual void touchgfx::PainterRGB565Bitmap::render(uint8_t*, int, int, int, unsigned int, const uint8_t*)	232	static
+PainterRGB565Bitmap.cpp:201:6:virtual bool touchgfx::PainterRGB565Bitmap::renderInit()	16	static
+PainterRGB565Bitmap.cpp:245:6:virtual bool touchgfx::PainterRGB565Bitmap::renderNext(uint8_t&, uint8_t&, uint8_t&, uint8_t&)	32	static
+PainterRGB565Bitmap.hpp:38:7:touchgfx::PainterRGB565Bitmap::~PainterRGB565Bitmap()	16	static
+PainterRGB565Bitmap.hpp:38:7:virtual touchgfx::PainterRGB565Bitmap::~PainterRGB565Bitmap()	16	static
