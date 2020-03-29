@@ -1324,6 +1324,7 @@ void StartDefaultTask(void const * argument)
   MX_USB_HOST_Init();
 
 /* Graphic application */  
+
   GRAPHICS_MainTask();
 
   /* USER CODE BEGIN 5 */

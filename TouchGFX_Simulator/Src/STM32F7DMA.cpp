@@ -245,7 +245,7 @@ void STM32F7DMA::setupDataFill(const BlitOp& blitOp)
                            blitOp.nSteps, blitOp.nLoops);
 }
 
-void STM32F7DMA::start()
+void STM32F7DMA::start()   // different
 {
     // If the framebuffer is placed in cached memory (e.g. SRAM) then we need
     // to flush the Dcache prior to letting DMA2D accessing it. That's done

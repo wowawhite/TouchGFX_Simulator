@@ -1,0 +1,9 @@
+/Drivers/
+/Middlewares/
+/Src/
+/Startup/
+/TouchGFX/
+/makefile
+/objects.list
+/objects.mk
+/sources.mk
